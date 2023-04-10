@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+@layer components {
+  .h1 {
+    @apply text-5xl max-md:text-3xl;
+  }
+  .h2 {
+    @apply text-2xl max-md:text-xl font-medium;
+  }
+  .h3 {
+    @apply text-xl max-md:text-lg font-medium;
+  }
+  .heading {
+    @apply text-2xl font-medium max-md:text-2xl;
+  }
+  .navlink {
+    @apply text-2xl ml-10 max-md:ml-5 max-sm:text-xl max-sm:ml-2;
+  }
+  .button {
+    @apply p-3 rounded-xl text-slate-50 bg-slate-700 hover:scale-105 duration-300 disabled:bg-slate-500;
+  }
+
+  .title {
+    @apply text-stone-500 text-2xl max-md:text-lg;
+  }
+  .input {
+    @apply rounded-md h-12 w-full pl-2;
+  }
+  .secondary-btn {
+    @apply p-2 outline outline-blue-700 text-blue-700 ring-0 rounded-full text-2xl max-lg:text-xl;
+  }
+  .secondary-btn-icon {
+    @apply text-3xl max-lg:text-2xl;
+  }
+  .sections_heading {
+    @apply text-center text-4xl font-semibold my-5 max-lg:my-3 max-md:text-2xl m-auto rounded-lg p-3;
+  }
+  .footer_text {
+    @apply hover:scale-105 duration-300 hover:text-slate-50;
+  }
+}
