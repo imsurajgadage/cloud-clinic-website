@@ -40,7 +40,11 @@ const Navbar = () => {
       <div className="bg-cyan-700 text-slate-50 select-text flex p-3 items-center">
         <marquee width="100%" direction="left" height="">
           Laser and Scanner Technology For Making Your treatment As Pleasing as
-          Possible. Book Your <a href={"/#appointment"} className="underline"> Appointment Now!</a>
+          Possible. Book Your{" "}
+          <a href={"/#appointment"} className="underline">
+            {" "}
+            Appointment Now!
+          </a>
         </marquee>
       </div>
       <div>
@@ -106,27 +110,27 @@ const Navbar = () => {
                 className={`bg-[#001a33] p-10 duration-500 flex flex-col items-center h-auto rounded animate-scaleup`}
               >
                 <a
-                  href={"#services"}
+                  href={"/#services"}
                   className="navlink my-3 w-full text-center text-white"
                 >
                   Services
                 </a>
                 <a
-                  href={"#team"}
+                  href={"/#team"}
                   className="navlink my-3 w-full text-center text-white"
                 >
                   Team
                 </a>
 
                 <a
-                  href={"#appointment"}
+                  href={"/#appointment"}
                   className="navlink my-3 w-full text-center text-white"
                 >
                   Appoinment
                 </a>
                 {window.location.pathname != "/academics" ? (
                   <Link
-                    to={"academics"}
+                    to={"/academics"}
                     className="navlink my-3 w-full text-center text-white"
                   >
                     Academics
