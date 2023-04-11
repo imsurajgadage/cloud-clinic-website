@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="bg-cyan-700 text-slate-50 select-text flex p-3 items-center">
         <marquee width="100%" direction="left" height="">
           Laser and Scanner Technology For Making Your treatment As Pleasing as
-          Possible. Book Your Appointment Now!
+          Possible. Book Your <a href={"/#appointment"} className="underline"> Appointment Now!</a>
         </marquee>
       </div>
       <div>
