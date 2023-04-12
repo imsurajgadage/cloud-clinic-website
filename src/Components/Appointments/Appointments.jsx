@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 const Appointments = () => {
   const url = `${import.meta.env.VITE_API_ENDPOOINT}/sendAppointmentInfo`;
   const [isPending, setIsPending] = useState(false);
+  const [date, setDate] = useState("text");
   const [patientData, setPatientData] = useState({
     firstName: "",
     lastName: "",
@@ -133,8 +134,8 @@ const Appointments = () => {
                 name="date"
                 placeholder="Date"
                 className="input"
-                type="text"
-                onmouseover={(this.type = "date")}
+                type={date}
+                onmouseover={() => setDate("date")}
                 value={patientData.date}
                 onChange={(e) => handleChange(e)}
               />
