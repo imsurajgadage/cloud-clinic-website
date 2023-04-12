@@ -104,9 +104,6 @@ const AcademicsCards = () => {
           <p className="h3 my-2">
             DENTAL MEDICINE &rarr; (GENERAL MEDICATIONS)
           </p>
-          <p className="h2 text-center bg-gray-600 text-slate-50 p-2">
-            For 1 Month 54,999/-
-          </p>
         </div>
       </div>
 
@@ -146,9 +143,6 @@ const AcademicsCards = () => {
           <p className="h3 my-2">
             DENTAL MEDICINE &rarr; (GENERAL MEDICATIONS)
           </p>
-          <p className="h2 text-center bg-gray-600 text-slate-50 p-2">
-            For 2 Month 74,999/-
-          </p>
         </div>
       </div>
 
@@ -178,9 +172,6 @@ const AcademicsCards = () => {
 
           <p className="h3 my-2">11. SELECTION OF ROTARY SYSTEM</p>
           <p className="h3 my-2">12. IRRIGATION SEQUENCE & TECHNIQUE </p>
-          <p className="h2 text-center bg-gray-600 text-slate-50 p-2">
-            Only 15,000/-
-          </p>
         </div>
       </div>
 
@@ -205,10 +196,6 @@ const AcademicsCards = () => {
           <p className="h3 my-2">8. TROUBLESHOOTING </p>
 
           <p className="h3 my-2">9. PATIENT MANAGEMENT</p>
-
-          <p className="h2 text-center bg-gray-600 text-slate-50 p-2">
-            Only 20,000/-
-          </p>
         </div>
       </div>
 
@@ -236,9 +223,6 @@ const AcademicsCards = () => {
           <p className="h3 my-2">10. COMPLICATIONS</p>
           <p className="h3 my-2">11. EXTRACTION UNDER GENERAL</p>
           <p className="h3 my-2">12. ANESTHESIA</p>
-          <p className="h2 text-center bg-gray-600 text-slate-50 p-2">
-            Only 15,000/-
-          </p>
         </div>
       </div>
 
@@ -263,10 +247,6 @@ const AcademicsCards = () => {
           <p className="h3 my-2">8. IMPRESSION MAKING = TYPES AND TECHNIQUE </p>
 
           <p className="h3 my-2">9. CEMENTATION = TYPES AND TECHNIQUES</p>
-
-          <p className="h2 text-center bg-gray-600 text-slate-50 p-2">
-            Only 25,000/-
-          </p>
         </div>
       </div>
 
@@ -316,9 +296,6 @@ const AcademicsCards = () => {
           <p className="h3 my-2">Promoting Implants Practice</p>
           <p className="h3 my-2">
             Open Discussion with mentors & Certificate distribution
-          </p>
-          <p className="h2 text-center bg-gray-600 text-slate-50 p-2">
-            Only 30,000/-
           </p>
         </div>
       </div>

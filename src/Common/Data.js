@@ -3,7 +3,7 @@ export const informationsCardList = [
     title: "Our Dentists",
     image: "./images/Icons/doctor.png",
     description:
-      "Search for a DentalCare clinic Experts Because Dental expetise makes a difference that we have",
+      "Search for a DentalCare clinic Experts Because Dental expertise makes a difference that we have",
     label: "find all doctors",
     redirect: "#team",
   },
@@ -185,7 +185,7 @@ export const locationsData = [
       "https://www.google.com/maps/place/Shree+seva+dental+clinic+and+implant+Centre/@18.4820976,73.951772,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2e9bdb48f375f:0xc5d4673cb065811f!8m2!3d18.4820925!4d73.9539607!16s%2Fg%2F11gtylcvcd?authuser=0",
   },
   {
-    title: "VishwaRaj Hospital",
+    title: "Vishwaraj Hospital",
     address:
       "Near Loni Railway station Loni Kalbhor, Solapur - Pune Hwy, Pune, Maharashtra 412201",
     redirect:

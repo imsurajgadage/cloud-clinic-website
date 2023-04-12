@@ -14,7 +14,7 @@ const Footer = () => {
 
           <div className="footer_text">
             <span className="font-semibold">Contact No:</span>
-            <a href="Tel:97622 10989">+91-97622 10989</a>
+            <a href="tel:83297 70223"> +91-83297 70223</a>
           </div>
         </div>
 

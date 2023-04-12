@@ -14,7 +14,7 @@ const LandingPage = () => {
         <div className="grid grid-cols-12 place-items-center mt-5">
           <div className="col-span-6 max-lg:col-span-12">
             <p className="h1 tracking-wide place-items-center capitalize">
-              a dental clinic <br /> that you can trust
+              a chain of dental clinic <br /> that you can trust
             </p>
             <p className="h2 my-8 max-md:my-4 capitalize">
               start your best life with a great smile

@@ -131,7 +131,7 @@ const Academics = () => {
           <p className="h1">Wish to Learn New Stuff!</p>
           <p className="h2 py-6 max-md:py-3">Make an Enquiry Today</p>
           <p className="h2 py-6 max-md:py-3">
-            <a href="Tel:97622 10989">+91-97622 10989</a>
+            <a href="tel:83297 70223"> +91-83297 70223</a>
           </p>
           <p className="text-lg">
             Our Clinic has highly qualified dentists for the <br />

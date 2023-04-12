@@ -14,7 +14,7 @@ const MapLocation = () => {
           src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Dr%20Nikhils%20Dental%20care%20and%20implant%20Centre%20Pune+(Dr%20Nikhils%20Dental%20care%20and%20implant%20Centre)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         ></iframe>
         <p className="h3 text-center">
-          : <span className="font-bold">Clinic Name: </span> Dr. Nikhils Dental
+          <span className="font-bold">Clinic Name: </span> Dr. Nikhils Dental
           care and implant Centre
         </p>
         <p className="h3 text-center">

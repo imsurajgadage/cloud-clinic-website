@@ -56,7 +56,10 @@ const Hightlights = () => {
           <div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center my-10">
             <button
               className="text-slate-50 border p-3 rounded-lg text-2xl font-semibold flex justify-around items-center w-80"
-              onClick={() => navigate("/academics")}
+              onClick={() => {
+                navigate("/academics");
+                window.scrollTo(0, 0);
+              }}
             >
               Go to Academics
               <img

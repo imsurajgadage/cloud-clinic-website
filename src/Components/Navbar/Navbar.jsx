@@ -49,7 +49,7 @@ const Navbar = () => {
       <div>
         <div className="p-2 flex justify-center items-center rounded-2xl mb-5 max-md:flex-col">
           <CallingPhone className="mr-2" />
-          <a href="tel:97622 10989"> +91- 97622 10989</a>
+          <a href="tel:83297 70223"> +91-83297 70223</a>
           <span className="divide-y m-3"></span>
           <b>Mon-Sat:</b> &nbsp; 10:30am to 2:30am - 5:30pm to 9:30pm &nbsp;
           <b>Sunday: &nbsp; </b> on Appointment
