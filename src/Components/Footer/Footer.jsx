@@ -1,9 +1,7 @@
-//
-
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <React.Fragment>
       <div className="grid grid-cols-12 gap-8 place-items-center py-10 bg-[#03203C] text-slate-400">
@@ -15,14 +13,13 @@ const Footer = () => {
           </div>
 
           <div className="footer_text">
-            <span className="font-semibold">Contact No:</span> +91-97622 10989
+            <span className="font-semibold">Contact No:</span>
+            <a href="Tel:97622 10989">+91-97622 10989</a>
           </div>
         </div>
 
         <div className="col-span-4 max-md:col-span-12 text-xl max-lg:text-lg">
-          <p className="text-3xl text-right py-4 footer_text">
-            Contact us
-          </p>
+          <p className="text-3xl text-right py-4 footer_text">Contact us</p>
           <div className="flex flex-col justify-start items-center">
             <a href={"/#services"} className="navlink py-1 footer_text">
               Services
@@ -30,21 +27,28 @@ const Footer = () => {
             <a href={"/#team"} className="navlink py-1 footer_text">
               Team
             </a>
-            <a
-              href={"/#appointment"}
-              className="navlink py-1 footer_text"
-            >
+
+            <a href={"/#appointment"} className="navlink py-1 footer_text">
               Appoinment
             </a>
-            <Link
-              to={"/academics"}
-              className="navlink py-1 footer_text"
+            <p
+              onClick={() => {
+                navigate("/academics");
+                window.scrollTo(0, 0);
+              }}
+              className="navlink py-1 footer_text cursor-pointer"
             >
               Academics
-            </Link>
-            <Link to={"/maps"} className="navlink py-1 footer_text">
+            </p>
+            <p
+              onClick={() => {
+                navigate("/maps");
+                window.scrollTo(0, 0);
+              }}
+              className="navlink py-1 footer_text cursor-pointer"
+            >
               Locations
-            </Link>
+            </p>
           </div>
         </div>
         <div className="col-span-4 max-md:col-span-12 max-sm:mb-10">
@@ -79,7 +83,7 @@ const Footer = () => {
         </div>
         <div className="grid col-span-12">
           <p className="text-center py-2 text-xl max-md:text-lg font-semibold footer_text">
-            &#169; {new Date().getFullYear()} Copyright All Rights Reserved!
+            &#169; {new Date().getFullYear()} Copyrights All Rights Reserved!
           </p>
         </div>
       </div>

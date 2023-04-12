@@ -6,10 +6,6 @@ module.exports = {
       boxShadow: {
         "3xl": "20px 10px 30px -10px rgba(0, 0, 0, 0.3)",
       },
-      backgroundImage: {
-        'academic-image': "url('./images/jeremy-bishop-G9i_plbfDgk-unsplash.jpg')",
-        'landing-page': "url('./images/landing_bg.jpg')",
-      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-1deg)' },

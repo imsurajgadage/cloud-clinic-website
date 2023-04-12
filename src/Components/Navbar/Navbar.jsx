@@ -40,9 +40,8 @@ const Navbar = () => {
       <div className="bg-cyan-700 text-slate-50 select-text flex p-3 items-center">
         <marquee width="100%" direction="left" height="">
           Laser and Scanner Technology For Making Your treatment As Pleasing as
-          Possible. Book Your{" "}
+          Possible. Book Your
           <a href={"/#appointment"} className="underline">
-            {" "}
             Appointment Now!
           </a>
         </marquee>
@@ -63,7 +62,7 @@ const Navbar = () => {
             alt="Logo"
             loading="lazy"
             onClick={() => navigate("/")}
-            className="w-72 h-24 cursor-pointer object-contain max-md:w-48 max-sm:h-10 max-sm:w-40 before:absolute before:w-96 before:h-96 before:top-0 before:left-0 max-lg:flex-1"
+            className="w-72 h-24 cursor-pointer object-contain max-md:w-48 max-sm:h-14 max-sm:w-40 before:absolute before:w-96 before:h-96 before:top-0 before:left-0 max-lg:flex-1"
           />
         </div>
         <div className="flex justify-center items-center max-lg:hidden">

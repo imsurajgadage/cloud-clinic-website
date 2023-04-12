@@ -31,7 +31,7 @@ function App() {
               <Footer />
             </>
           }
-        ></Route>
+        />
         <Route
           path="academics"
           element={
