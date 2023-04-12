@@ -134,7 +134,7 @@ const Appointments = () => {
                 placeholder="Date"
                 className="input"
                 type="text"
-                onmouseover="(this.type='date')"
+                onmouseover={(this.type = "date")}
                 value={patientData.date}
                 onChange={(e) => handleChange(e)}
               />
