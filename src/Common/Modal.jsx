@@ -107,7 +107,7 @@ const Modal = ({ modal, toggleModal }) => {
                   </div>
                 </div>
                 <div className="grid grid-cols-12 gap-2 max-md:gap-4 mb-4">
-                  <div className="col-span-6 max-md:col-span-12">
+                  <div className="col-span-6 max-md:col-span-12 w-full">
                     <input
                       name="date"
                       type="date"
@@ -116,7 +116,7 @@ const Modal = ({ modal, toggleModal }) => {
                       onChange={(e) => handleChange(e)}
                     />
                   </div>
-                  <div className="col-span-6 max-md:col-span-12">
+                  <div className="col-span-6 max-md:col-span-12 w-full">
                     <input
                       name="time"
                       type="time"
