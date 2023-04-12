@@ -120,17 +120,26 @@ const Appointments = () => {
             </div>
           </div>
           <div className="grid grid-cols-12 gap-2 max-md:gap-4 mb-4">
-            <div className="col-span-6 max-md:col-span-12">
-              <input
+            <div className="col-span-6 max-md:col-span-12 w-full">
+              {/* <input
                 name="date"
                 type="date"
                 placeholder="Date"
                 className="input"
                 value={patientData.date}
                 onChange={(e) => handleChange(e)}
+              /> */}
+              <input
+                name="date"
+                placeholder="Date"
+                className="input"
+                type="text"
+                onmouseover="(this.type='date')"
+                value={patientData.date}
+                onChange={(e) => handleChange(e)}
               />
             </div>
-            <div className="col-span-6 max-md:col-span-12">
+            <div className="col-span-6 max-md:col-span-12 w-full">
               <input
                 name="time"
                 type="time"
