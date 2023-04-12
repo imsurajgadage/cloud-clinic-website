@@ -135,7 +135,7 @@ const Appointments = () => {
                 placeholder="Date"
                 className="input"
                 type={date}
-                onFocus={() => setDate("date")}
+                onMouseOver={() => setDate("date")}
                 value={patientData.date}
                 onChange={(e) => handleChange(e)}
               />
