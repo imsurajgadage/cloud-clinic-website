@@ -168,7 +168,7 @@ const Appointments = () => {
                 disabled={isPending}
                 onClick={() => handleClick()}
               >
-                {isPending ? "Booking..." : " Make an Appointment"}
+                {isPending ? "Please Wait Booking..." : " Make an Appointment"}
               </button>
             </div>
           </div>

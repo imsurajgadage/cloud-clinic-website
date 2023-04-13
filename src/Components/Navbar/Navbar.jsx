@@ -96,14 +96,14 @@ const Navbar = () => {
           ) : null}
         </div>
         <div
-          className="cursor-pointer relative z-10 hidden max-lg:block"
+          className="cursor-pointer relative  hidden max-lg:block"
           id="hamburger"
           onClick={() => setIsOpen(!isOpen)}
         >
           <div className={`border-b border-black border-2 w-8 mb-2`} />
           <div className={`border-b border-black border-2 w-8 mb-2`} />
           <div className={`border-b border-black border-2 w-8 mb-2`} />
-          <div className="absolute right-0 z-50">
+          <div className="absolute right-0 z-40">
             {isOpen && (
               <div
                 className={`bg-[#001a33] p-10 duration-500 flex flex-col items-center h-auto rounded animate-scaleup`}

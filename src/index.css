@@ -30,7 +30,7 @@ body {
     @apply text-2xl ml-10 max-md:ml-5 max-sm:text-xl max-sm:ml-2;
   }
   .button {
-    @apply p-3 rounded-xl text-slate-50 bg-slate-700 hover:scale-105 duration-300 disabled:bg-slate-500;
+    @apply p-3 rounded-xl text-slate-50 bg-slate-700 hover:scale-105 duration-300 disabled:bg-slate-500 disabled:cursor-not-allowed;
   }
 
   .title {
