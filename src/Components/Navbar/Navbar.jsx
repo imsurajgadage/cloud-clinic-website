@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CallingPhone from "../../assets/Icons/CallingPhone";
-import Modal from "../../Common/Modal";
+import AppointmentModal from "../../Common/AppointmentModal";
 import { Link, useNavigate } from "react-router-dom";
 import ScrollButton from "../ScrollButton/ScrollButton";
 
@@ -23,7 +23,6 @@ const Navbar = () => {
     });
   }, []);
 
-  const [showModal, setShowModal] = useState(false);
   const handleMouseDown = (ev) => {
     let clickOutside = true;
     let el = ev.target;
@@ -149,7 +148,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <Modal modal={modal} toggleModal={toggleModal} />
+      <AppointmentModal modal={modal} toggleModal={toggleModal} />
       {showTopBtn && <ScrollButton />}
     </React.Fragment>
   );

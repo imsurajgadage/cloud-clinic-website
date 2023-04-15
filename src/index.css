@@ -46,9 +46,12 @@ body {
     @apply text-3xl max-lg:text-2xl;
   }
   .sections_heading {
-    @apply text-center text-4xl font-semibold my-5 max-lg:my-3 max-md:text-2xl m-auto rounded-lg p-3;
+    @apply text-center text-4xl font-semibold my-5 max-lg:my-3 max-md:text-2xl m-auto rounded-lg p-3 bg-neutral-500 w-fit text-slate-50;
   }
   .footer_text {
     @apply hover:scale-105 duration-300 hover:text-slate-50;
   }
 }
+/* @apply text-center text-4xl font-semibold my-5 max-lg:my-3 max-md:text-2xl m-auto rounded-lg p-3; */
+
+/* @apply text-center text-4xl font-semibold my-5 max-lg:my-3 max-md:text-2xl m-auto rounded-lg p-3 bg-blue-700 w-fit text-slate-50; */

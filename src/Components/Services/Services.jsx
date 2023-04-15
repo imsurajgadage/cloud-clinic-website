@@ -4,10 +4,17 @@ import {
   ourSecondExpertList,
   informationsCardList,
 } from "../../Common/Data";
+import ServiesInfoModal from "../../Common/ServiesInfoModal";
 
 const Services = () => {
   const [services, setServices] = useState([]);
   const [isSeeAll, setIsSeeAll] = useState(false);
+  const [modal, setModal] = useState(false);
+  const [serviceId, setServiceId] = useState(0);
+  const toggleModal = () => {
+    setModal(!modal);
+  };
+
   useEffect(() => {
     isSeeAll
       ? setServices([...ourFirstExpertiseList, ...ourSecondExpertList])
@@ -55,7 +62,11 @@ const Services = () => {
           {services?.map((item, index) => (
             <div
               key={index}
-              className="w-80 flex flex-col justify-center items-center bg-white p-8 rounded-2xl h-56"
+              className="w-80 flex flex-col justify-center items-center bg-white p-8 rounded-2xl h-56 cursor-pointer"
+              onClick={() => {
+                setServiceId(index);
+                toggleModal();
+              }}
             >
               <img
                 src={item?.image}
@@ -82,6 +93,13 @@ const Services = () => {
           </div>
         </div>
       </div>
+      {
+        <ServiesInfoModal
+          modal={modal}
+          toggleModal={toggleModal}
+          serviceId={serviceId}
+        />
+      }
     </React.Fragment>
   );
 };

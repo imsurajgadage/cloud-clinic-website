@@ -46,84 +46,141 @@ export const ourHightlightsList = [
 
 export const ourFirstExpertiseList = [
   {
+    id: 0,
     image: "./images/Icons/braces.png",
     title: "Orthodontic Treatment (Braces)",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 1,
     image: "./images/Icons/root-canal.png",
     title: "Root Canal Treatment ",
+    description: "When the decay reaches the pulp ,it causes inflammation of the pulp and eventually pain ,for the treatment we do a root canal1 . removal of inflected tooth structure 2.cleaning and disinfection 3. Filling and sealing with inert Material 4. Restoration and crown)cap",
+    descriptionImage: "./images/Icons/root-canal.png"
   },
   {
+    id: 2,
     image: "./images/Icons/singlesettingrootcanal.png",
     title: "Single Setting Root Canal Treatment",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 3,
     image: "./images/Icons/tooth-extraction.png",
     title: "Dental extraction",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 4,
     image: "./images/Icons/wisdom-tooth.png",
     title: "Wisdom Tooth Extraction",
+    description: "Wisdom teeth are usually only removed if they cause problems, or are likely to in the future. There are no scientifically proven health benefits of pulling wisdom teeth that don't cause any problems. What's more, removing wisdom teeth is usually unpleasant and may cause side effects",
+    descriptionImage: ""
   },
   {
+    id: 5,
     image: "./images/Icons/implant.png",
     title: "Dental Implants",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 6,
     image: "./images/Icons/veeners.png",
     title: "Veeners",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 7,
     image: "./images/Icons/scalingpolishing.jpg",
     title: "Scaling Polishing",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 8,
     image: "./images/Icons/tooth-cleaning.png",
     title: "Tooth Whitening (Bleaching)",
+    description: "",
+    descriptionImage: ""
   },
 
   {
+    id: 9,
     image: "./images/Icons/bridges-dental-bridge.png",
     title: "Ceramic Bridges",
+    description: "",
+    descriptionImage: ""
   },
 ];
 
 export const ourSecondExpertList = [
   {
+    id: 10,
     image: "./images/Icons/crowns-bridges.png",
     title: "Zirconia Bridges",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 11,
     image: "./images/Icons/invisalign.png",
     title: "Invisalign",
+    description: "wires can irritate your cheeks. The good news is that clear aligners are made out of smooth plastic. As such, they're much less likely to irritate the soft tissues inside your mouth. This also greatly reduces your risk of having uncomfortable mouth sores during orthodontic treatment.",
+    descriptionImage: ""
   },
   {
+    id: 12,
     image: "./images/Icons/pediatrics.png",
     title: "Pediatric Dentistry",
+    description: "teeth are important to your child's overall health. They help your child eat and talk. Strong oral care helps set good dental habits as your child grows. Poor oral care can lead to infection, disease, or other teeth problems",
+    descriptionImage: ""
   },
   {
+    id: 13,
     image: "./images/Icons/dental_sealants.png",
     title: "Dental Sealents",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 14,
     image: "./images/Icons/cosmetic_dentistry.png",
     title: "Cosmetic Dentistry",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 15,
     image: "./images/Icons/dental-jewellery.png",
     title: "Dental Jewellery",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 16,
     image: "./images/Icons/complete_dentures.png",
     title: "Complete/Partial Dentures",
+    description: "Dentures replace the support in your face, once created by your natural teeth, to help keep your facial appearance and prevent you from looking older. The loss of teeth also means oral bone structure will begin to perish. Dentures decrease the rate at which these bones disintegrate.",
+    descriptionImage: "",
   },
   {
+    id: 17,
     image: "./images/Icons/implant_support_over_denture.png",
     title: "Implant Support Over Denture",
+    description: "",
+    descriptionImage: ""
   },
   {
+    id: 18,
     image: "./images/Icons/full_mouth-rehabilitation.png",
     title: "Full Mouth Rehabilitation",
+    description: "",
+    descriptionImage: "",
   },
 ];
 

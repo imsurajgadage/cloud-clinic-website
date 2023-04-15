@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Modal from "../../Common/Modal";
+import AppointmentModal from "../../Common/AppointmentModal";
 
 const LandingPage = () => {
   const [modal, setModal] = useState(false);
@@ -29,7 +29,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <Modal modal={modal} toggleModal={toggleModal} />
+      <AppointmentModal modal={modal} toggleModal={toggleModal} />
     </React.Fragment>
   );
 };
