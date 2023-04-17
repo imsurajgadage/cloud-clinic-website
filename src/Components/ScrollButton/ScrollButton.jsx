@@ -7,7 +7,7 @@ const ScrollButton = () => {
       onClick={() => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
       }}
-      className="bg-gray-500 rounded-full fixed right-1 max-md:right-5 !z-50 bottom-10 animate-scaleup"
+      className="bg-gray-500 rounded-full fixed right-1 max-md:right-5 z-40 bottom-10 animate-scaleup"
     >
       <ArrowUp />
     </button>

@@ -49,28 +49,28 @@ export const ourFirstExpertiseList = [
     id: 0,
     image: "./images/Icons/braces.png",
     title: "Orthodontic Treatment (Braces)",
-    description: "",
+    description: "Orthodontic treatment will straighten the teeth and move them into a better position. This can improve their appearance and the way the teeth bite together, while also making them easier to clean and maintain",
     descriptionImage: ""
   },
   {
     id: 1,
     image: "./images/Icons/root-canal.png",
     title: "Root Canal Treatment ",
-    description: "When the decay reaches the pulp ,it causes inflammation of the pulp and eventually pain ,for the treatment we do a root canal1 . removal of inflected tooth structure 2.cleaning and disinfection 3. Filling and sealing with inert Material 4. Restoration and crown)cap",
-    descriptionImage: "./images/Icons/root-canal.png"
+    description: "When the decay reaches the pulp, it causes inflammation of the pulp and eventually pain ,for the treatment we do a root canal1 . removal of inflected tooth structure 2.cleaning and disinfection 3. Filling and sealing with inert Material 4. Restoration and crown) cap",
+    descriptionImage: "./images/Root-Canal-Treatment-Steps.jpg"
   },
   {
     id: 2,
     image: "./images/Icons/singlesettingrootcanal.png",
     title: "Single Setting Root Canal Treatment",
-    description: "",
+    description: "Single-visit RCT involves cleaning, shaping, and obturation during a single treatment session.",
     descriptionImage: ""
   },
   {
     id: 3,
     image: "./images/Icons/tooth-extraction.png",
     title: "Dental extraction",
-    description: "",
+    description: "A dental extraction (also referred to as tooth extraction, exodontia, exodontics, or informally, tooth pulling) is the removal of teeth from the dental alveolus (socket) in the alveolar bone.",
     descriptionImage: ""
   },
   {
@@ -84,28 +84,28 @@ export const ourFirstExpertiseList = [
     id: 5,
     image: "./images/Icons/implant.png",
     title: "Dental Implants",
-    description: "",
+    description: "The average lifespan of a dental implant is anywhere from 10 -30 years. This means that most likely, depending on your age when you get an implant, it will last for the rest of your life. No other tooth replacement option has the ability to last that long.",
     descriptionImage: ""
   },
   {
     id: 6,
     image: "./images/Icons/veeners.png",
     title: "Veeners",
-    description: "",
+    description: "Dental veneers are custom-made shells that fit over the front surfaces of your teeth. They conceal cracks, chips, stains and other cosmetic imperfections. Veneers are one of the most common cosmetic dentistry treatments",
     descriptionImage: ""
   },
   {
     id: 7,
     image: "./images/Icons/scalingpolishing.jpg",
     title: "Scaling Polishing",
-    description: "",
+    description: "The procedure gets rid of tartar (hardened minerals) that can adhere to your teeth",
     descriptionImage: ""
   },
   {
     id: 8,
     image: "./images/Icons/tooth-cleaning.png",
     title: "Tooth Whitening (Bleaching)",
-    description: "",
+    description: "Whitening may be accomplished by physical removal of the stain or a chemical reaction to lighten the tooth color.",
     descriptionImage: ""
   },
 
@@ -113,8 +113,8 @@ export const ourFirstExpertiseList = [
     id: 9,
     image: "./images/Icons/bridges-dental-bridge.png",
     title: "Ceramic Bridges",
-    description: "",
-    descriptionImage: ""
+    description: "Ceramic fixed bridges are most popular because they resemble your natural teeth. This type of bridge consists to two crowns that go over two anchoring teeth (abutment teeth) and are attached to pontics (artificial teeth), filling the gap created by one or more missing teeth.",
+    descriptionImage: "./images/bridges.jpg"
   },
 ];
 
@@ -123,7 +123,7 @@ export const ourSecondExpertList = [
     id: 10,
     image: "./images/Icons/crowns-bridges.png",
     title: "Zirconia Bridges",
-    description: "",
+    description: "Zirconia is a white solid ceramic glaze and one of several newer materials that combine metal's strength with the aesthetic, tooth-like appeal of porcelain.",
     descriptionImage: ""
   },
   {
@@ -144,22 +144,22 @@ export const ourSecondExpertList = [
     id: 13,
     image: "./images/Icons/dental_sealants.png",
     title: "Dental Sealents",
-    description: "",
+    description: "Protect the chewing surfaces from cavities by covering them with a protective shield that blocks out germs and food",
     descriptionImage: ""
   },
   {
     id: 14,
     image: "./images/Icons/cosmetic_dentistry.png",
     title: "Cosmetic Dentistry",
-    description: "",
+    description: "The common cosmetic dentistry options are Whitening, Reshaping, Bonding, Bridging, Veneers and Implants, Gum lifts, Straightening and Bite reclamation. Some top job profiles are: Orthodontists,Dental lab technician,Dental hygienist,Public Health Specialists,Dental Surgeon,Oral Pathologist,Clinical Microbiologist etc.",
     descriptionImage: ""
   },
   {
     id: 15,
     image: "./images/Icons/dental-jewellery.png",
     title: "Dental Jewellery",
-    description: "",
-    descriptionImage: ""
+    description: "Tooth jewellery, also called a tooth gem, is a rhinestone jewel that attaches to the visible surface of a front tooth.",
+    descriptionImage: "./images/dental-jewellery.jpeg"
   },
   {
     id: 16,
@@ -172,14 +172,14 @@ export const ourSecondExpertList = [
     id: 17,
     image: "./images/Icons/implant_support_over_denture.png",
     title: "Implant Support Over Denture",
-    description: "",
+    description: "Implant-supported overdenture proves to be a better treatment alternative to the conventional denture,we usually get the achorage from the bone",
     descriptionImage: ""
   },
   {
     id: 18,
     image: "./images/Icons/full_mouth-rehabilitation.png",
     title: "Full Mouth Rehabilitation",
-    description: "",
+    description: "Benefits include an improved smile, the ability to eat as the patient desires, healthier teeth.",
     descriptionImage: "",
   },
 ];

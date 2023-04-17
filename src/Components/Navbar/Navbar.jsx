@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="bg-cyan-700 text-slate-50 select-text flex p-3 items-center">
         <marquee width="100%" direction="left" height="">
           Laser and Scanner Technology For Making Your treatment As Pleasing as
-          Possible. Book Your
+          Possible. Book Your &nbsp;
           <a href={"/#appointment"} className="underline">
             Appointment Now!
           </a>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <CallingPhone className="mr-2" />
           <a href="tel:83297 70223"> +91-83297 70223</a>
           <span className="divide-y m-3"></span>
-          <b>Mon-Sat:</b> &nbsp; 10:30am to 2:30am - 5:30pm to 9:30pm &nbsp;
+          <b>Mon-Sat:</b> &nbsp; 10:30am to 2:30pm - 5:30pm to 9:30pm &nbsp;
           <b>Sunday: &nbsp; </b> on Appointment
         </div>
       </div>

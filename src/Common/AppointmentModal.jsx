@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Modal.css";
 import { ToastContainer, toast } from "react-toastify";
+import CrossIcon from "../assets/Icons/CrossIcon";
 const AppointmentModal = ({ modal, toggleModal }) => {
   const [isPending, setIsPending] = useState(false);
   const [patientData, setPatientData] = useState({
@@ -67,8 +68,8 @@ const AppointmentModal = ({ modal, toggleModal }) => {
       {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
-          <div className="modal-content">
-            <div className="grid grid-cols-12 gap-8 place-items-center py-10 max-lg:px-2 z-50">
+          <div className="modal-content z-50">
+            <div className="grid grid-cols-12 gap-8 place-items-center max-lg:px-2">
               <div className="col-span-12 max-lg:col-span-12 bg-slate-300 p-4 rounded-2xl">
                 <div className="grid grid-cols-12 gap-2 max-lg:gap-4 mb-4">
                   <div className="col-span-6 max-md:col-span-12">
@@ -77,10 +78,12 @@ const AppointmentModal = ({ modal, toggleModal }) => {
                     </span>
                   </div>
                   <div
-                    className="col-span-6 max-md:col-span-12 text-right pr-4 cursor-pointer"
+                    className="col-span-6 max-md:col-span-12 flex justify-end  pr-1 max-md:pr-3 cursor-pointer"
                     onClick={() => toggleModal()}
                   >
-                    <span className="text-4xl text-neutral-500">&times;</span>
+                    <span className="text-4xl">
+                      <CrossIcon />
+                    </span>
                   </div>
                 </div>
 
