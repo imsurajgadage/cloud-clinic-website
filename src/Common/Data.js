@@ -99,14 +99,14 @@ export const ourFirstExpertiseList = [
     image: "./images/Icons/scalingpolishing.jpg",
     title: "Scaling Polishing",
     description: "The procedure gets rid of tartar (hardened minerals) that can adhere to your teeth",
-    descriptionImage: ""
+    descriptionImage: "./images/Scaling_Polishing.jpg"
   },
   {
     id: 8,
     image: "./images/Icons/tooth-cleaning.png",
     title: "Tooth Whitening (Bleaching)",
     description: "Whitening may be accomplished by physical removal of the stain or a chemical reaction to lighten the tooth color.",
-    descriptionImage: ""
+    descriptionImage: "./images/whitening.jpg"
   },
 
   {
@@ -124,7 +124,7 @@ export const ourSecondExpertList = [
     image: "./images/Icons/crowns-bridges.png",
     title: "Zirconia Bridges",
     description: "Zirconia is a white solid ceramic glaze and one of several newer materials that combine metal's strength with the aesthetic, tooth-like appeal of porcelain.",
-    descriptionImage: ""
+    descriptionImage: "./images/Zirconia_Bridge.jpeg"
   },
   {
     id: 11,
@@ -138,14 +138,14 @@ export const ourSecondExpertList = [
     image: "./images/Icons/pediatrics.png",
     title: "Pediatric Dentistry",
     description: "teeth are important to your child's overall health. They help your child eat and talk. Strong oral care helps set good dental habits as your child grows. Poor oral care can lead to infection, disease, or other teeth problems",
-    descriptionImage: ""
+    descriptionImage: "./images/Pediatric_Dentistry.jpg"
   },
   {
     id: 13,
     image: "./images/Icons/dental_sealants.png",
     title: "Dental Sealents",
     description: "Protect the chewing surfaces from cavities by covering them with a protective shield that blocks out germs and food",
-    descriptionImage: ""
+    descriptionImage: "./images/Dental_Sealents.jpeg"
   },
   {
     id: 14,
@@ -166,14 +166,14 @@ export const ourSecondExpertList = [
     image: "./images/Icons/complete_dentures.png",
     title: "Complete/Partial Dentures",
     description: "Dentures replace the support in your face, once created by your natural teeth, to help keep your facial appearance and prevent you from looking older. The loss of teeth also means oral bone structure will begin to perish. Dentures decrease the rate at which these bones disintegrate.",
-    descriptionImage: "",
+    descriptionImage: "./images/Complete_Partial_Dentures.jpeg",
   },
   {
     id: 17,
     image: "./images/Icons/implant_support_over_denture.png",
     title: "Implant Support Over Denture",
     description: "Implant-supported overdenture proves to be a better treatment alternative to the conventional denture,we usually get the achorage from the bone",
-    descriptionImage: ""
+    descriptionImage: "./images/Implant_Support_Over_Denture.jpeg"
   },
   {
     id: 18,
