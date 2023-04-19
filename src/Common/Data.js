@@ -50,7 +50,7 @@ export const ourFirstExpertiseList = [
     image: "./images/Icons/braces.png",
     title: "Orthodontic Treatment (Braces)",
     description: "Orthodontic treatment will straighten the teeth and move them into a better position. This can improve their appearance and the way the teeth bite together, while also making them easier to clean and maintain",
-    descriptionImage: ""
+    descriptionImage: "images/Braces.jpg"
   },
   {
     id: 1,
@@ -64,35 +64,35 @@ export const ourFirstExpertiseList = [
     image: "./images/Icons/singlesettingrootcanal.png",
     title: "Single Setting Root Canal Treatment",
     description: "Single-visit RCT involves cleaning, shaping, and obturation during a single treatment session.",
-    descriptionImage: ""
+    descriptionImage: "./images/single_root_canal_treatment.jpg"
   },
   {
     id: 3,
     image: "./images/Icons/tooth-extraction.png",
     title: "Dental extraction",
     description: "A dental extraction (also referred to as tooth extraction, exodontia, exodontics, or informally, tooth pulling) is the removal of teeth from the dental alveolus (socket) in the alveolar bone.",
-    descriptionImage: ""
+    descriptionImage: "./images/Dental-Extraction.jpg"
   },
   {
     id: 4,
     image: "./images/Icons/wisdom-tooth.png",
     title: "Wisdom Tooth Extraction",
     description: "Wisdom teeth are usually only removed if they cause problems, or are likely to in the future. There are no scientifically proven health benefits of pulling wisdom teeth that don't cause any problems. What's more, removing wisdom teeth is usually unpleasant and may cause side effects",
-    descriptionImage: ""
+    descriptionImage: "./images/wisdom-tooth-extraction.jpg"
   },
   {
     id: 5,
     image: "./images/Icons/implant.png",
     title: "Dental Implants",
     description: "The average lifespan of a dental implant is anywhere from 10 -30 years. This means that most likely, depending on your age when you get an implant, it will last for the rest of your life. No other tooth replacement option has the ability to last that long.",
-    descriptionImage: ""
+    descriptionImage: "./images/Dental-implant.jpg"
   },
   {
     id: 6,
     image: "./images/Icons/veeners.png",
     title: "Veeners",
     description: "Dental veneers are custom-made shells that fit over the front surfaces of your teeth. They conceal cracks, chips, stains and other cosmetic imperfections. Veneers are one of the most common cosmetic dentistry treatments",
-    descriptionImage: ""
+    descriptionImage: "./images/Veeners.jpg"
   },
   {
     id: 7,
@@ -131,7 +131,7 @@ export const ourSecondExpertList = [
     image: "./images/Icons/invisalign.png",
     title: "Invisalign",
     description: "wires can irritate your cheeks. The good news is that clear aligners are made out of smooth plastic. As such, they're much less likely to irritate the soft tissues inside your mouth. This also greatly reduces your risk of having uncomfortable mouth sores during orthodontic treatment.",
-    descriptionImage: ""
+    descriptionImage: "./images/Invisalign.jpg"
   },
   {
     id: 12,
@@ -152,7 +152,7 @@ export const ourSecondExpertList = [
     image: "./images/Icons/cosmetic_dentistry.png",
     title: "Cosmetic Dentistry",
     description: "The common cosmetic dentistry options are Whitening, Reshaping, Bonding, Bridging, Veneers and Implants, Gum lifts, Straightening and Bite reclamation. Some top job profiles are: Orthodontists,Dental lab technician,Dental hygienist,Public Health Specialists,Dental Surgeon,Oral Pathologist,Clinical Microbiologist etc.",
-    descriptionImage: ""
+    descriptionImage: "./images/cosmetic_dentistry.jpg"
   },
   {
     id: 15,
@@ -180,7 +180,7 @@ export const ourSecondExpertList = [
     image: "./images/Icons/full_mouth-rehabilitation.png",
     title: "Full Mouth Rehabilitation",
     description: "Benefits include an improved smile, the ability to eat as the patient desires, healthier teeth.",
-    descriptionImage: "",
+    descriptionImage: "./images/full_mouth-rehabilation.jpg",
   },
 ];
 
