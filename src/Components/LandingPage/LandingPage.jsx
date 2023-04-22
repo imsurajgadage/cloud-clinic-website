@@ -24,7 +24,7 @@ const LandingPage = () => {
             </button>
           </div>
           <div className="col-span-6 max-lg:col-span-12 max-md:my-5">
-            <img src="./images/dentist.png" />
+            <img src="./images/dentist.jpg" />
           </div>
         </div>
       </div>
