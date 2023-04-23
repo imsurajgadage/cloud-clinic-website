@@ -125,7 +125,6 @@ const MapLocation = () => {
           Gvqf+2C5, Shop No 1, Tadiwala Road, Division, Lumbini Nagar,
           Sangamvadi
         </p>
-
         <p className="h3 pl-2">
           <span className="font-bold">Contact No: </span>
           <span>+91-8329770223</span>
@@ -145,6 +144,26 @@ const MapLocation = () => {
         <p className="h3 pl-2">
           <span className="font-bold">Clinic Name: </span>
           Cloud Dentist Children Dental care & Implant Center
+        </p>
+      </div>
+
+      <div className="col-span-6 max-md:col-span-12">
+        <iframe
+          width={"100%"}
+          height={"300px"}
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=P7/8,%20Upper%20Indira%20Nagar,%20Bibwewadi%20Pune+(FV69+J46)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
+        <p className="h3 pl-2">
+          <span className="font-bold">Clinic Name: </span>
+          FV69+J46 Pune, Maharashtra
+        </p>
+        <p className="h3 pl-2">
+          <span className="font-bold">Address: </span>
+          P7/8, Upper Indira Nagar, Bibwewadi, Pune, Maharashtra 411037
         </p>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import AcademicsCards from "./AcademicsCards";
 
@@ -36,7 +36,9 @@ const Academics = () => {
     const { name, value } = e?.target;
     setStudentData({ ...studentData, [name]: value });
   };
-
+  useEffect(() => {
+    document.title = "Cloud Dental Academy";
+  }, []);
   const notify = () => {
     toast.success(`Hey, ${studentData.firstName} We Will Contact You Soon!`, {
       position: "bottom-center",

@@ -249,6 +249,11 @@ export const locationsData = [
       "https://www.google.com/maps/place/VishwaRaj+Hospital/@18.4896597,74.020292,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2e962952e9f33:0x981154a5a58c7c16!8m2!3d18.4896546!4d74.0224807!16s%2Fg%2F11bwkdlty_?authuser=0",
   },
   {
+    title: "FV69+J46 Pune, Maharashtra",
+    address: "P7/8, Upper Indira Nagar, Bibwewadi, Pune, Maharashtra 411037",
+    redirect: "https://www.google.com/maps/place/18%C2%B027'41.5%22N+73%C2%B052'03.9%22E/@18.4615343,73.8655672,17z/data=!3m1!4b1!4m4!3m3!8m2!3d18.4615343!4d73.8677559?hl=en"
+  },
+  {
     title: "Deep Griha Society",
     address: "13, Tadiwala Rd, Sangamvadi, Pune, Maharashtra 411001",
     redirect:
