@@ -3,6 +3,7 @@ import CallingPhone from "../../assets/Icons/CallingPhone";
 import AppointmentModal from "../../Common/AppointmentModal";
 import { Link, useNavigate } from "react-router-dom";
 import ScrollButton from "../ScrollButton/ScrollButton";
+import CrossIcon from "../../assets/Icons/CrossIcon";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -36,7 +37,7 @@ const Navbar = () => {
 
   return (
     <React.Fragment>
-      <div className="bg-cyan-700 text-slate-50 select-text flex p-3 items-center">
+      <div className="bg-cyan-700 text-slate-50 select-text flex p-3 items-center relative">
         <marquee width="100%" direction="left" height="">
           Laser and Scanner Technology For Making Your treatment As Pleasing as
           Possible. Book Your &nbsp;
@@ -55,9 +56,13 @@ const Navbar = () => {
         </div>
       </div>
       <div className="w-full flex justify-around">
-        <div className="flex items-center relative">
+        <div className="flex items-center">
           <img
-            src="./logo.jpeg"
+            src={
+              window.location.pathname == "/academics"
+                ? "./logo.jpeg"
+                : "./DentalLogo.jpeg"
+            }
             alt="Logo"
             loading="lazy"
             onClick={() => navigate("/")}
@@ -79,8 +84,8 @@ const Navbar = () => {
               Academics
             </Link>
           ) : null}
-          {window.location.pathname != "/academics" ? (
-            <Link className={"navlink"} to={"maps"}>
+          {window.location.pathname != "/maps" ? (
+            <Link className={"navlink"} to={"/maps"}>
               Locations
             </Link>
           ) : null}
@@ -95,14 +100,20 @@ const Navbar = () => {
           ) : null}
         </div>
         <div
-          className="cursor-pointer relative  hidden max-lg:block"
+          className="cursor-pointer hidden max-lg:block"
           id="hamburger"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <div className={`border-b border-black border-2 w-8 mb-2`} />
-          <div className={`border-b border-black border-2 w-8 mb-2`} />
-          <div className={`border-b border-black border-2 w-8 mb-2`} />
-          <div className="absolute right-0 z-40">
+          {isOpen ? (
+            <CrossIcon />
+          ) : (
+            <>
+              <div className={`border-b border-[#6F708B] border-2 w-7 mb-2`} />
+              <div className={`border-b border-[#6F708B] border-2 w-7 mb-2`} />
+              <div className={`border-b border-[#6F708B] border-2 w-7 mb-2`} />
+            </>
+          )}
+          <div className="absolute right-0 mt-8 w-screen z-40">
             {isOpen && (
               <div
                 className={`bg-[#001a33] p-10 duration-500 flex flex-col items-center h-auto rounded animate-scaleup`}

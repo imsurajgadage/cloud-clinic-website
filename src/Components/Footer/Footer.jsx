@@ -59,7 +59,7 @@ const Footer = () => {
               className="ml-4 w-10 h-10 object-contain cursor-pointer"
               onClick={() =>
                 window.open(
-                  "https://www.instagram.com/cloud_dentist/",
+                  "https://www.instagram.com/cloud_dentist10/",
                   "_blank"
                 )
               }
